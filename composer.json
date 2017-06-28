@@ -9,7 +9,7 @@
     },
     "license": "MIT",
     "autoload": {
-        "psr-4": {"AliyunSms\\": "src/"}
+        "psr-4": {"Mrgoon\\AliSms\\": "src/"}
     },
     "authors": [
         {
