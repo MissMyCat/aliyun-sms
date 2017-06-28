@@ -1,0 +1,14 @@
+{
+    "name": "mrgoon/aliyun-sms",
+    "require": {
+        "mrgoon/aliyun-sms-sdk ": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mrgoon",
+            "email": "mrgoon@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
