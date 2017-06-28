@@ -5,7 +5,7 @@
 	"version": "1.0.0",
     "require": {
 		"php": ">5.3",
-        "mrgoon/aliyun-sms-sdk": "1.0.*"
+        "mrgoon/aliyun-sms-sdk": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -14,10 +14,5 @@
             "email": "mrgoon@foxmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    }
+    "minimum-stability": "dev"
 }
