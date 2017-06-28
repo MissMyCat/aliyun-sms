@@ -1,6 +1,9 @@
 {
     "name": "mrgoon/aliyun-sms",
+	"description": "阿里云短信服务php调用代码",
+	"keywords": ["sdk", "aliyun", "aliyun-sms"],
     "require": {
+		"php": ">5.3",
         "mrgoon/aliyun-sms-sdk ": "*"
     },
     "license": "MIT",
