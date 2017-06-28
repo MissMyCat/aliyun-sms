@@ -8,6 +8,9 @@
         "mrgoon/aliyun-sms-sdk": "dev-master"
     },
     "license": "MIT",
+    "autoload": {
+        "psr-4": {"AliyunSms\\": "src/"}
+    },
     "authors": [
         {
             "name": "mrgoon",
