@@ -4,7 +4,7 @@
 	"keywords": ["sdk", "aliyun", "aliyun-sms"],
     "require": {
 		"php": ">5.3",
-        "mrgoon/aliyun-sms-sdk ": "*"
+        "mrgoon/aliyun-sms-sdk": "*"
     },
     "license": "MIT",
     "authors": [
