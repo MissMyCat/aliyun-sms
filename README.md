@@ -9,9 +9,12 @@
 * 加载
 在config/app的providers中添加
 ` Mrgoon\AliSms\ServiceProvider::class `
+
 同时，可以选择性添加aliases
+
 控制台运行:
 ` php artisan vendor:publish `
+
 根据新增的` aliyunsms.php ` 文件添加部分环境变量：
 ``` 
 ALIYUN_SMS_ENABLE_HTTP_PROXY=false
