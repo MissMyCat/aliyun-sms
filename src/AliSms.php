@@ -8,15 +8,18 @@ use Mrgoon\AliyunSmsSdk\Profile\DefaultProfile;
 use Mrgoon\Dysmsapi\Request\V20170525\SendSmsRequest;
 
 class AliSms {
-    public function sendSms($to, $template_code, $data, $outId = '')
+    public function sendSms($to, $template_code, $data, Array $config = null, $outId = '')
     {
-
-
         //此处需要替换成自己的AK信息
-        $accessKeyId = config('aliyunsms.access_key');
-        $accessKeySecret = config('aliyunsms.access_secret');
-        //sign_name
-        $signName = config('aliyunsms.sign_name');
+        if (!$config) {
+            $accessKeyId = $config['access_key'];
+            $accessKeySecret = $config['access_secret'];
+            $signName = $config['sign_name'];
+        } else {
+            $accessKeyId = config('aliyunsms.access_key');
+            $accessKeySecret = config('aliyunsms.access_secret');
+            $signName = config('aliyunsms.sign_name');
+        }
 
         //短信API产品名
         $product = "Dysmsapi";
@@ -90,6 +93,5 @@ class AliSms {
 //
 //}
 
-//sendSms();
-//querySendDetails();
+
 ?>
