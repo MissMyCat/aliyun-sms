@@ -11,7 +11,7 @@ class AliSms {
     public function sendSms($to, $template_code, $data, Array $config = null, $outId = '')
     {
         //此处需要替换成自己的AK信息
-        if (!$config) {
+        if ($config) {
             $accessKeyId = $config['access_key'];
             $accessKeySecret = $config['access_secret'];
             $signName = $config['sign_name'];
