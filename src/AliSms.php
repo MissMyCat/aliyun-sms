@@ -3,6 +3,7 @@
 
 namespace Mrgoon\AliSms;
 
+use Mrgoon\AliyunSmsSdk\Autoload;
 use Mrgoon\AliyunSmsSdk\DefaultAcsClient;
 use Mrgoon\AliyunSmsSdk\Profile\DefaultProfile;
 use Mrgoon\Dysmsapi\Request\V20170525\SendSmsRequest;
@@ -29,6 +30,7 @@ class AliSms {
         $region = "cn-hangzhou";
 
         //初始化访问的acsCleint
+        Autoload::config();
 
         $profile = DefaultProfile::getProfile($region, $accessKeyId, $accessKeySecret);
         DefaultProfile::addEndpoint("cn-hangzhou", "cn-hangzhou", $product, $domain);
