@@ -4,7 +4,7 @@
 自己造了一个轮子，亲测可用。
 
 * 安装
-` composer require mrgoon/aliyun-sms `
+` composer require mrgoon/aliyun-sms dev-master `
 
 ## 基于laravel框架的使用方法
 
