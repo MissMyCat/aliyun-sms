@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mrgoon\AliSms\ServiceProvider"
+                "Mrgoon\\AliSms\\ServiceProvider"
             ],
             "aliases": {
             }
