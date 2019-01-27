@@ -17,5 +17,14 @@
             "email": "mrgoon@foxmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mrgoon\\AliSms\\ServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
 }

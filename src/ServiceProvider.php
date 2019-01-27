@@ -18,7 +18,7 @@ class ServiceProvider extends LaravelServiceProvider
 
         $this->publishes([
             __DIR__.'/config.php' => config_path('aliyunsms.php'),
-        ], 'config');
+        ], 'aliyun-sms-config');
 
     }
 
